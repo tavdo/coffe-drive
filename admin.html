@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Admin · Georgian Coffee Drive</title>
+  <title>ადმინი · Georgian Coffee Drive</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Jost:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
@@ -1145,138 +1145,138 @@
 </head>
 <body>
 
-  <!-- LOGIN SCREEN -->
+  <!-- შესვლის ეკრანი -->
   <div class="login-screen" id="loginScreen">
     <div class="login-card">
       <div class="mark">ყ</div>
-      <span class="eyebrow">Admin Console</span>
-      <h1>Coffee <em>Drive</em></h1>
-      <div class="ka">ადმინისტრაცია · Batumi</div>
+      <span class="eyebrow">ადმინ პანელი</span>
+      <h1>ყავა <em>დრაივი</em></h1>
+      <div class="ka">ადმინისტრაცია · ბათუმი</div>
       <form class="login-form" id="loginForm">
         <input type="password" id="loginPass" placeholder="••••" autocomplete="off" inputmode="numeric" maxlength="8" required />
-        <button type="submit">Enter Console</button>
+        <button type="submit">შესვლა</button>
       </form>
-      <div class="login-hint">Demo passcode: <b>1234</b></div>
+      <div class="login-hint">სადემონსტრაციო კოდი: <b>1234</b></div>
     </div>
   </div>
 
-  <!-- APP -->
+  <!-- აპლიკაცია -->
   <div class="app">
-    <!-- SIDEBAR -->
+    <!-- გვერდითი მენიუ -->
     <aside class="sidebar" id="sidebar">
       <div class="brand">
         <span class="brand__mark">ყ</span>
         <span class="brand__text">
-          <span class="brand__name">Coffee Drive</span>
-          <span class="brand__sub">Admin · ყავა</span>
+          <span class="brand__name">ყავა დრაივი</span>
+          <span class="brand__sub">ადმინი · ბათუმი</span>
         </span>
       </div>
 
-      <div class="nav-section">Overview</div>
+      <div class="nav-section">მიმოხილვა</div>
       <button class="nav-link is-active" data-view="dashboard">
         <svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="9" rx="1.5"/><rect x="14" y="3" width="7" height="5" rx="1.5"/><rect x="14" y="12" width="7" height="9" rx="1.5"/><rect x="3" y="16" width="7" height="5" rx="1.5"/></svg>
-        Dashboard
+        მთავარი
       </button>
       <button class="nav-link" data-view="orders">
         <svg viewBox="0 0 24 24"><path d="M6 7h12l-1.2 10.2a2 2 0 0 1-2 1.8H9.2a2 2 0 0 1-2-1.8L6 7Z" stroke-linejoin="round"/><path d="M9 7a3 3 0 0 1 6 0"/></svg>
-        Orders
+        შეკვეთები
         <span class="nav-badge" id="ordersBadge">0</span>
       </button>
       <button class="nav-link" data-view="menu">
         <svg viewBox="0 0 24 24"><path d="M5 7h14M5 12h14M5 17h10"/></svg>
-        Menu &amp; Prices
+        მენიუ და ფასები
       </button>
 
-      <div class="nav-section">Operations</div>
+      <div class="nav-section">მართვა</div>
       <button class="nav-link" data-view="locations">
         <svg viewBox="0 0 24 24"><path d="M12 21s-7-6.5-7-12a7 7 0 1 1 14 0c0 5.5-7 12-7 12Z"/><circle cx="12" cy="9" r="2.5"/></svg>
-        Locations
+        ფილიალები
       </button>
       <button class="nav-link" data-view="settings">
         <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09a1.65 1.65 0 0 0-1-1.51 1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09a1.65 1.65 0 0 0 1.51-1 1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33h.01a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82v.01a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1Z"/></svg>
-        Settings
+        პარამეტრები
       </button>
 
       <div class="sidebar__bottom">
         <div class="row">
-          <span>Live sync</span>
+          <span>ცოცხალი სინქრონი</span>
           <span class="pulse-dot"></span>
         </div>
         <div class="row">
-          <span>v1.0 · Batumi</span>
-          <button id="logoutBtn" style="color:var(--gold); font-size:10px; letter-spacing:0.2em; text-transform:uppercase;">Sign out</button>
+          <span>v1.0 · ბათუმი</span>
+          <button id="logoutBtn" style="color:var(--gold); font-size:10px; letter-spacing:0.2em; text-transform:uppercase;">გასვლა</button>
         </div>
       </div>
     </aside>
 
-    <!-- MAIN -->
+    <!-- მთავარი -->
     <main class="main">
       <header class="topbar">
-        <button class="sidebar-toggle" id="sidebarToggle" aria-label="Menu">
+        <button class="sidebar-toggle" id="sidebarToggle" aria-label="მენიუ">
           <svg viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
         </button>
         <div class="topbar__title">
-          <h2 id="viewTitle">Dashboard</h2>
-          <span id="viewSubtitle">Today at a glance</span>
+          <h2 id="viewTitle">მთავარი</h2>
+          <span id="viewSubtitle">დღევანდელი მიმოხილვა</span>
         </div>
         <div class="topbar__actions">
-          <button class="bell" id="bellBtn" aria-label="Notifications">
+          <button class="bell" id="bellBtn" aria-label="შეტყობინებები">
             <svg viewBox="0 0 24 24"><path d="M6 8a6 6 0 1 1 12 0v5l1.5 3h-15L6 13V8Z" stroke-linejoin="round"/><path d="M10 19a2 2 0 0 0 4 0"/></svg>
             <span class="bell-dot" id="bellDot">0</span>
           </button>
           <button class="btn-ghost" id="exportBtn">
             <svg viewBox="0 0 24 24"><path d="M12 3v12M7 10l5 5 5-5M5 21h14"/></svg>
-            Export
+            ექსპორტი
           </button>
         </div>
       </header>
 
       <div class="content">
 
-        <!-- DASHBOARD -->
+        <!-- მთავარი პანელი -->
         <section class="view is-active" data-view="dashboard">
           <div class="stats-grid">
             <div class="stat-card">
               <div class="stat-card__icon">
                 <svg viewBox="0 0 24 24"><path d="M6 7h12l-1.2 10.2a2 2 0 0 1-2 1.8H9.2a2 2 0 0 1-2-1.8L6 7Z"/><path d="M9 7a3 3 0 0 1 6 0"/></svg>
               </div>
-              <div class="stat-card__label">Today's Orders</div>
+              <div class="stat-card__label">დღევანდელი შეკვეთები</div>
               <div class="stat-card__value" id="statToday">0</div>
-              <div class="stat-card__delta"><b id="statAllTime">0</b> all-time</div>
+              <div class="stat-card__delta"><b id="statAllTime">0</b> სულ</div>
             </div>
             <div class="stat-card revenue">
               <div class="stat-card__icon">
                 <svg viewBox="0 0 24 24"><path d="M12 3v18M16 7H9a3 3 0 0 0 0 6h6a3 3 0 0 1 0 6H7"/></svg>
               </div>
-              <div class="stat-card__label">Today's Revenue</div>
+              <div class="stat-card__label">დღევანდელი შემოსავალი</div>
               <div class="stat-card__value"><small>₾</small><span id="statRev">0</span></div>
-              <div class="stat-card__delta">Avg <b id="statAvg">₾0</b> per order</div>
+              <div class="stat-card__delta">საშუალოდ <b id="statAvg">₾0</b> შეკვეთაზე</div>
             </div>
             <div class="stat-card pending">
               <div class="stat-card__icon">
                 <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
               </div>
-              <div class="stat-card__label">In Progress</div>
+              <div class="stat-card__label">მიმდინარე</div>
               <div class="stat-card__value" id="statPending">0</div>
-              <div class="stat-card__delta"><b id="statNew">0</b> new waiting</div>
+              <div class="stat-card__delta"><b id="statNew">0</b> ახალი ელოდება</div>
             </div>
             <div class="stat-card ready">
               <div class="stat-card__icon">
                 <svg viewBox="0 0 24 24"><path d="M5 12l4 4L19 7"/></svg>
               </div>
-              <div class="stat-card__label">Ready for Pickup</div>
+              <div class="stat-card__label">მზადაა წამოსაღებად</div>
               <div class="stat-card__value" id="statReady">0</div>
-              <div class="stat-card__delta">Tell the barista</div>
+              <div class="stat-card__delta">შეატყობინეთ ბარისტას</div>
             </div>
           </div>
 
           <div class="panel">
             <div class="panel__head">
-              <h3>Recent Orders</h3>
-              <span class="ka">ბოლო შეკვეთები</span>
+              <h3>ბოლო შეკვეთები</h3>
+              <span class="ka">უახლესი</span>
               <div class="spacer"></div>
               <button class="btn-ghost" onclick="showView('orders')">
-                View all
+                ყველას ნახვა
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
               </button>
             </div>
@@ -1286,87 +1286,87 @@
           </div>
         </section>
 
-        <!-- ORDERS -->
+        <!-- შეკვეთები -->
         <section class="view" data-view="orders">
           <div class="tabs" id="orderTabs">
-            <button class="tab is-active" data-status="all">All <span class="count" id="cnt-all">0</span></button>
-            <button class="tab" data-status="new">New <span class="count" id="cnt-new">0</span></button>
-            <button class="tab" data-status="preparing">Preparing <span class="count" id="cnt-preparing">0</span></button>
-            <button class="tab" data-status="ready">Ready <span class="count" id="cnt-ready">0</span></button>
-            <button class="tab" data-status="completed">Completed <span class="count" id="cnt-completed">0</span></button>
-            <button class="tab" data-status="cancelled">Cancelled <span class="count" id="cnt-cancelled">0</span></button>
+            <button class="tab is-active" data-status="all">ყველა <span class="count" id="cnt-all">0</span></button>
+            <button class="tab" data-status="new">ახალი <span class="count" id="cnt-new">0</span></button>
+            <button class="tab" data-status="preparing">მზადდება <span class="count" id="cnt-preparing">0</span></button>
+            <button class="tab" data-status="ready">მზადაა <span class="count" id="cnt-ready">0</span></button>
+            <button class="tab" data-status="completed">დასრულდა <span class="count" id="cnt-completed">0</span></button>
+            <button class="tab" data-status="cancelled">გაუქმდა <span class="count" id="cnt-cancelled">0</span></button>
           </div>
           <div class="orders-list" id="ordersList"></div>
         </section>
 
-        <!-- MENU -->
+        <!-- მენიუ -->
         <section class="view" data-view="menu">
           <div class="menu-toolbar">
             <div class="search-wrap">
               <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
-              <input type="text" id="menuSearch" placeholder="Search menu by name or Georgian name…" />
+              <input type="text" id="menuSearch" placeholder="მოძებნე მენიუში სახელით…" />
             </div>
             <button class="btn-ghost" id="resetPrices">
               <svg viewBox="0 0 24 24"><path d="M3 12a9 9 0 1 0 3-6.7"/><path d="M3 4v5h5"/></svg>
-              Reset to defaults
+              საწყისი ფასების აღდგენა
             </button>
           </div>
 
           <div class="menu-table">
             <div class="menu-row head">
               <div></div>
-              <div>Item</div>
-              <div class="col-cat">Category</div>
-              <div>Price</div>
-              <div>Available</div>
+              <div>პროდუქტი</div>
+              <div class="col-cat">კატეგორია</div>
+              <div>ფასი</div>
+              <div>ხელმისაწვდომი</div>
               <div></div>
             </div>
             <div id="menuList"></div>
           </div>
         </section>
 
-        <!-- LOCATIONS -->
+        <!-- ფილიალები -->
         <section class="view" data-view="locations">
           <div class="loc-grid" id="locList"></div>
         </section>
 
-        <!-- SETTINGS -->
+        <!-- პარამეტრები -->
         <section class="view" data-view="settings">
           <div class="settings-grid">
             <div class="setting">
               <div>
-                <h5>Sound on new orders</h5>
-                <p>Play a subtle chime when a customer places a new order.</p>
+                <h5>ახალი შეკვეთის ხმოვანი სიგნალი</h5>
+                <p>დაკვრა მოკრძალებული ზარის, როცა მომხმარებელი ახალ შეკვეთას გააკეთებს.</p>
               </div>
               <div class="toggle on" id="soundToggle" role="switch"></div>
             </div>
             <div class="setting">
               <div>
-                <h5>Desktop notifications</h5>
-                <p>Show a browser notification even when the tab is in the background.</p>
+                <h5>ბრაუზერის შეტყობინებები</h5>
+                <p>შეტყობინების გამოჩენა მაშინაც კი, როცა ჩანართი ფონზეა.</p>
               </div>
               <div class="toggle" id="notifyToggle" role="switch"></div>
             </div>
             <div class="setting">
               <div>
-                <h5>Change admin passcode</h5>
-                <p>Currently: <b id="currentPass" style="font-family:var(--mono); letter-spacing:0.2em;">1234</b></p>
+                <h5>ადმინის კოდის შეცვლა</h5>
+                <p>მიმდინარე კოდი: <b id="currentPass" style="font-family:var(--mono); letter-spacing:0.2em;">1234</b></p>
               </div>
-              <button class="btn-primary" id="changePassBtn">Change</button>
+              <button class="btn-primary" id="changePassBtn">შეცვლა</button>
             </div>
             <div class="setting">
               <div>
-                <h5>Clear completed orders</h5>
-                <p>Permanently removes all completed and cancelled orders from history.</p>
+                <h5>დასრულებული შეკვეთების წაშლა</h5>
+                <p>სრულად წაშლის ყველა დასრულებულ და გაუქმებულ შეკვეთას ისტორიიდან.</p>
               </div>
-              <button class="danger-btn" id="clearCompletedBtn">Clear</button>
+              <button class="danger-btn" id="clearCompletedBtn">წაშლა</button>
             </div>
             <div class="setting">
               <div>
-                <h5>Reset everything</h5>
-                <p>Wipes all orders, custom prices, and settings. Use with caution.</p>
+                <h5>ყველაფრის გადატვირთვა</h5>
+                <p>წაშლის ყველა შეკვეთას, შეცვლილ ფასებს და პარამეტრებს. სიფრთხილით.</p>
               </div>
-              <button class="danger-btn" id="resetAllBtn">Reset</button>
+              <button class="danger-btn" id="resetAllBtn">გადატვირთვა</button>
             </div>
           </div>
         </section>
@@ -1414,12 +1414,12 @@
       { id: 'gata', cat: 'pastry', name: 'Gata Butter Cookie', nameKa: 'გათა', desc: 'Flaky butter pastry.', price: 3, badge: 'Bake', icon: 'Ga' },
       { id: 'almond-croissant', cat: 'pastry', name: 'Almond Croissant', nameKa: 'ნუშის კრუასანი', desc: 'Buttery 27-layer almond croissant.', price: 5, badge: 'Bake', icon: 'Ac' },
     ];
-    const CAT_LABELS = { espresso: 'Espresso', cold: 'Cold Brew', special: 'Georgian Special', pastry: 'Pastry' };
+    const CAT_LABELS = { espresso: 'ესპრესო', cold: 'ცივი ყავა', special: 'ქართული სპეციალი', pastry: 'საცხობი' };
 
     const LOCATIONS = [
-      { num: '01', key: 'boulevard', name: 'Batumi Boulevard', nameKa: 'ბათუმის ბულვარი', addr: 'Rustaveli Ave 48', openHour: 7, closeHour: 23, phone: '+995 555 12 34 56' },
-      { num: '02', key: 'airport',   name: 'Airport Road',     nameKa: 'აეროპორტის გზა',   addr: 'Kakheti Hwy 12',    openHour: 6, closeHour: 22, phone: '+995 555 78 90 12' },
-      { num: '03', key: 'gonio',     name: 'Gonio Beach',      nameKa: 'გონიოს სანაპირო',    addr: 'Gonio seafront',     openHour: 8, closeHour: 21, phone: '+995 555 34 56 78' },
+      { num: '01', key: 'boulevard', name: 'ბათუმის ბულვარი',   nameKa: 'ბულვარი',       addr: 'რუსთაველის გამზირი 48, მოცეკვავე შადრევნების გვერდით', openHour: 7, closeHour: 23, phone: '+995 555 12 34 56' },
+      { num: '02', key: 'airport',   name: 'აეროპორტის გზა',     nameKa: 'აეროპორტი',     addr: 'კახეთის გზატკეცილი 12, ბათუმის საერთაშორისოდან',     openHour: 6, closeHour: 22, phone: '+995 555 78 90 12' },
+      { num: '03', key: 'gonio',     name: 'გონიოს სანაპირო',     nameKa: 'გონიო',           addr: 'გონიოს სანაპირო, ფონიჭალის ციხის მახლობლად',         openHour: 8, closeHour: 21, phone: '+995 555 34 56 78' },
     ];
 
     /* ==========================================================
@@ -1453,12 +1453,12 @@
     const pad2 = n => String(n).padStart(2, '0');
     function timeAgo(ts) {
       const s = Math.floor((Date.now() - ts) / 1000);
-      if (s < 60) return s + 's ago';
+      if (s < 60) return s + ' წმ წინ';
       const m = Math.floor(s / 60);
-      if (m < 60) return m + 'm ago';
+      if (m < 60) return m + ' წთ წინ';
       const h = Math.floor(m / 60);
-      if (h < 24) return h + 'h ago';
-      return Math.floor(h / 24) + 'd ago';
+      if (h < 24) return h + ' სთ წინ';
+      return Math.floor(h / 24) + ' დღის წინ';
     }
     function escHtml(s) { return String(s || '').replace(/[&<>"']/g, c => ({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' })[c]); }
     function isToday(ts) {
@@ -1522,11 +1522,11 @@
        NAV / VIEWS
     ========================================================== */
     const VIEW_META = {
-      dashboard: { title: 'Dashboard',       sub: 'Today at a glance' },
-      orders:    { title: 'Orders',          sub: 'Live queue · ყველა შეკვეთა' },
-      menu:      { title: 'Menu & Prices',   sub: 'Edit offerings in real time' },
-      locations: { title: 'Locations',       sub: 'Three Batumi drive-thrus' },
-      settings:  { title: 'Settings',        sub: 'Preferences & security' },
+      dashboard: { title: 'მთავარი',          sub: 'დღევანდელი მიმოხილვა' },
+      orders:    { title: 'შეკვეთები',        sub: 'ცოცხალი რიგი · ყველა შეკვეთა' },
+      menu:      { title: 'მენიუ და ფასები',   sub: 'რეალურ დროში რედაქტირება' },
+      locations: { title: 'ფილიალები',         sub: 'ბათუმის სამი დრაივ-ინ' },
+      settings:  { title: 'პარამეტრები',      sub: 'უსაფრთხოება და პირადი პარამეტრები' },
     };
 
     function showView(view) {
@@ -1554,8 +1554,8 @@
       setTimeout(() => $('#bellBtn').classList.remove('ringing'), 1000);
       if (settings.sound) playChime();
       if (settings.notify && 'Notification' in window && Notification.permission === 'granted') {
-        new Notification('New order · Georgian Coffee Drive', {
-          body: `${order.customer.name} · ${fmtLari(order.total)} at ${locName(order.location)}`,
+        new Notification('ახალი შეკვეთა · ყავა დრაივი', {
+          body: `${order.customer.name} · ${fmtLari(order.total)} — ${locName(order.location)}`,
           icon: 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"%3E%3Ccircle cx="24" cy="24" r="22" fill="%23D4AF37"/%3E%3Ctext x="24" y="32" font-size="22" font-family="serif" font-weight="700" fill="%230F0800" text-anchor="middle"%3Eყ%3C/text%3E%3C/svg%3E',
         });
       }
@@ -1590,7 +1590,7 @@
        RENDER — STATS / ORDERS
     ========================================================== */
     function locName(key) { return (LOCATIONS.find(l => l.key === key) || {}).name || key; }
-    function statusLabel(s) { return { new: 'New', preparing: 'Preparing', ready: 'Ready', completed: 'Completed', cancelled: 'Cancelled' }[s] || s; }
+    function statusLabel(s) { return { new: 'ახალი', preparing: 'მზადდება', ready: 'მზადაა', completed: 'დასრულდა', cancelled: 'გაუქმდა' }[s] || s; }
 
     function renderStats() {
       const today = orders.filter(o => isToday(o.ts));
@@ -1626,7 +1626,7 @@
           <span class="order-line__price">${fmtLari(it.price * it.qty)}</span>
         </div>`).join('');
       const actions = statusActions(o);
-      const note = o.note ? `<div class="order-note"><b>Note:</b>${escHtml(o.note)}</div>` : '';
+      const note = o.note ? `<div class="order-note"><b>კომენტარი:</b>${escHtml(o.note)}</div>` : '';
       return `
         <article class="order-card ${markNew ? 'is-new' : ''}" data-id="${o.id}">
           <header class="order-card__head">
@@ -1637,10 +1637,10 @@
             <span class="status-pill ${o.status}">${statusLabel(o.status)}</span>
           </header>
           <div class="order-meta">
-            <div class="row"><b>Phone</b><span><a href="tel:${o.customer.phone.replace(/\s/g,'')}">${escHtml(o.customer.phone)}</a></span></div>
-            <div class="row"><b>Pickup</b><span>${escHtml(o.pickupTime)}</span></div>
-            <div class="row"><b>Location</b><span>${escHtml(locName(o.location))}</span></div>
-            <div class="row"><b>Payment</b><span>${escHtml(o.paymentMethod || 'Card')}</span></div>
+            <div class="row"><b>ტელეფონი</b><span><a href="tel:${o.customer.phone.replace(/\s/g,'')}">${escHtml(o.customer.phone)}</a></span></div>
+            <div class="row"><b>წამოღება</b><span>${escHtml(o.pickupTime)}</span></div>
+            <div class="row"><b>ფილიალი</b><span>${escHtml(locName(o.location))}</span></div>
+            <div class="row"><b>გადახდა</b><span>${escHtml(o.paymentMethod || 'ბარათი')}</span></div>
           </div>
           <div class="order-items">${items}</div>
           ${note}
@@ -1653,15 +1653,15 @@
 
     function statusActions(o) {
       if (o.status === 'new') return `
-        <button class="action-btn ghost" data-act="cancel" data-id="${o.id}">Cancel</button>
-        <button class="action-btn primary" data-act="accept" data-id="${o.id}">Start brewing</button>`;
+        <button class="action-btn ghost" data-act="cancel" data-id="${o.id}">გაუქმება</button>
+        <button class="action-btn primary" data-act="accept" data-id="${o.id}">დაწყება</button>`;
       if (o.status === 'preparing') return `
-        <button class="action-btn ghost" data-act="cancel" data-id="${o.id}">Cancel</button>
+        <button class="action-btn ghost" data-act="cancel" data-id="${o.id}">გაუქმება</button>
         <button class="action-btn success" data-act="ready" data-id="${o.id}">
-          <svg viewBox="0 0 24 24"><path d="M5 12l4 4L19 7"/></svg>Mark ready</button>`;
+          <svg viewBox="0 0 24 24"><path d="M5 12l4 4L19 7"/></svg>მზადაა</button>`;
       if (o.status === 'ready') return `
-        <button class="action-btn primary" data-act="complete" data-id="${o.id}">Picked up</button>`;
-      return `<button class="action-btn ghost" data-act="restore" data-id="${o.id}">Restore</button>`;
+        <button class="action-btn primary" data-act="complete" data-id="${o.id}">წაიღეს</button>`;
+      return `<button class="action-btn ghost" data-act="restore" data-id="${o.id}">აღდგენა</button>`;
     }
 
     function renderOrders() {
@@ -1671,7 +1671,7 @@
       const sorted = [...filtered].sort((a, b) => b.ts - a.ts);
 
       if (sorted.length === 0) {
-        list.innerHTML = emptyState('No orders here yet', 'New orders appear in real time.');
+        list.innerHTML = emptyState('აქ ჯერ შეკვეთები არაა', 'ახალი შეკვეთები რეალურ დროში გამოჩნდება.');
       } else {
         list.innerHTML = sorted.map(o => orderCardHTML(o)).join('');
       }
@@ -1679,7 +1679,7 @@
       const recentOrders = [...orders].sort((a, b) => b.ts - a.ts).slice(0, 4);
       recent.innerHTML = recentOrders.length
         ? recentOrders.map(o => orderCardHTML(o)).join('')
-        : emptyState('Waiting for the first order', 'Open index.html and place one to see it here instantly.');
+        : emptyState('ელოდება პირველ შეკვეთას', 'გახსენით საიტი და გააფორმეთ შეკვეთა, აქ მაშინვე გამოჩნდება.');
     }
 
     function emptyState(title, desc) {
@@ -1716,7 +1716,7 @@
       saveOrders();
       renderAll();
       broadcast({ type: 'order:status', id, status: o.status });
-      toast(`Order ${o.code}`, `Moved to "${statusLabel(o.status)}"`, 'success');
+      toast(`შეკვეთა ${o.code}`, `სტატუსი: ${statusLabel(o.status)}`, 'success');
     });
 
     /* ==========================================================
@@ -1751,12 +1751,12 @@
               <div class="toggle ${available ? 'on' : ''}" data-toggle="${m.id}" role="switch" aria-checked="${available}"></div>
             </div>
             <div>
-              <button class="menu-save" data-save="${m.id}">Save</button>
+              <button class="menu-save" data-save="${m.id}">შენახვა</button>
             </div>
           </div>`;
       }).join('');
       if (items.length === 0) {
-        list.innerHTML = `<div class="menu-row" style="grid-template-columns: 1fr;"><div style="padding: 40px; text-align: center; color: var(--muted);">No menu items match "${escHtml(filterText)}"</div></div>`;
+        list.innerHTML = `<div class="menu-row" style="grid-template-columns: 1fr;"><div style="padding: 40px; text-align: center; color: var(--muted);">ვერაფერი მოიძებნა: "${escHtml(filterText)}"</div></div>`;
       }
     }
 
@@ -1781,7 +1781,7 @@
         overrides[id] = { ...(overrides[id] || {}), available: on };
         saveOverrides();
         broadcast({ type: 'menu:override', id, available: on });
-        toast('Menu updated', `${BASE_MENU.find(m => m.id === id).name} is now ${on ? 'available' : 'hidden'}.`, 'success');
+        toast('მენიუ განახლდა', `${BASE_MENU.find(m => m.id === id).name} ახლა ${on ? 'ხელმისაწვდომია' : 'დამალულია'}.`, 'success');
       } else if (save) {
         const id = save.dataset.save;
         commitPrice(id);
@@ -1805,7 +1805,7 @@
         menuDirty[id] = newPrice;
         wrap.classList.add('dirty');
         btn.classList.add('show');
-        btn.textContent = 'Save';
+        btn.textContent = 'შენახვა';
         btn.classList.remove('saved');
       } else {
         delete menuDirty[id];
@@ -1824,19 +1824,19 @@
       const btn = $(`[data-save="${id}"]`);
       wrap.classList.remove('dirty');
       btn.classList.add('saved');
-      btn.textContent = 'Saved ✓';
+      btn.textContent = 'შენახულია ✓';
       setTimeout(() => btn.classList.remove('show'), 1400);
       broadcast({ type: 'menu:override', id, price: newPrice });
-      toast('Price updated', `${BASE_MENU.find(m => m.id === id).name} is now ₾${newPrice}.`, 'success');
+      toast('ფასი განახლდა', `${BASE_MENU.find(m => m.id === id).name} — ახალი ფასი ₾${newPrice}.`, 'success');
     }
 
     $('#resetPrices').addEventListener('click', () => {
-      if (!confirm('Reset all prices and availability to defaults?')) return;
+      if (!confirm('დავაბრუნოთ ყველა ფასი და ხელმისაწვდომობა საწყის მდგომარეობაში?')) return;
       overrides = {};
       saveOverrides();
       broadcast({ type: 'menu:reset' });
       renderMenu($('#menuSearch').value);
-      toast('Menu reset', 'All items back to original prices.', 'success');
+      toast('მენიუ აღდგა', 'ყველა ფასი დაბრუნდა საწყისზე.', 'success');
     });
 
     /* ==========================================================
@@ -1852,10 +1852,10 @@
           <div class="loc-card">
             <h4>${l.name}</h4>
             <div class="ka">${l.nameKa}</div>
-            <span class="status-pill ${open ? 'ready' : 'cancelled'}" style="margin-bottom:10px;">${open ? 'Open now' : 'Closed'}</span>
+            <span class="status-pill ${open ? 'ready' : 'cancelled'}" style="margin-bottom:10px;">${open ? 'ღიაა' : 'დაკეტილია'}</span>
             <p>${escHtml(l.addr)}</p>
             <div class="hours">${pad2(l.openHour)}:00 – ${pad2(l.closeHour)}:00</div>
-            <p><b style="color:var(--espresso)">${todayOrders}</b> orders today · <a href="tel:${l.phone.replace(/\s/g,'')}" style="color:var(--gold);">${l.phone}</a></p>
+            <p><b style="color:var(--espresso)">${todayOrders}</b> შეკვეთა დღეს · <a href="tel:${l.phone.replace(/\s/g,'')}" style="color:var(--gold);">${l.phone}</a></p>
           </div>`;
       }).join('');
     }
@@ -1878,9 +1878,9 @@
       if (!settings.notify) {
         if ('Notification' in window) {
           const perm = await Notification.requestPermission();
-          if (perm !== 'granted') { toast('Not granted', 'Browser denied notifications.', 'error'); return; }
+          if (perm !== 'granted') { toast('არ დაეთანხმა', 'ბრაუზერმა არ ნება შეტყობინებებს.', 'error'); return; }
         } else {
-          toast('Not supported', 'Your browser has no notifications.', 'error'); return;
+          toast('მხარდაუჭერელია', 'თქვენს ბრაუზერს შეტყობინებები არ აქვს.', 'error'); return;
         }
       }
       settings.notify = !settings.notify;
@@ -1888,46 +1888,46 @@
       applySettingsUI();
     });
     $('#changePassBtn').addEventListener('click', () => {
-      const p = prompt('New passcode (4–8 digits):', getPass());
+      const p = prompt('ახალი კოდი (4–8 ციფრი):', getPass());
       if (!p) return;
-      if (!/^\d{4,8}$/.test(p)) { toast('Invalid', 'Use 4 to 8 digits.', 'error'); return; }
+      if (!/^\d{4,8}$/.test(p)) { toast('არასწორი', 'საჭიროა 4-დან 8 ციფრამდე.', 'error'); return; }
       setPass(p);
-      toast('Passcode updated', '', 'success');
+      toast('კოდი განახლდა', '', 'success');
     });
     $('#clearCompletedBtn').addEventListener('click', () => {
-      if (!confirm('Remove all completed and cancelled orders?')) return;
+      if (!confirm('წავშალოთ ყველა დასრულებული და გაუქმებული შეკვეთა?')) return;
       orders = orders.filter(o => o.status !== 'completed' && o.status !== 'cancelled');
       saveOrders();
       renderAll();
-      toast('History cleared', '', 'success');
+      toast('ისტორია გასუფთავდა', '', 'success');
     });
     $('#resetAllBtn').addEventListener('click', () => {
-      if (!confirm('This wipes ALL orders, prices, and settings. Continue?')) return;
+      if (!confirm('ეს წაშლის ყველა შეკვეთას, ფასს და პარამეტრს. გავაგრძელოთ?')) return;
       orders = []; overrides = {}; settings = { sound: true, notify: false };
       saveOrders(); saveOverrides(); saveSettings();
       broadcast({ type: 'menu:reset' });
       renderAll();
-      toast('Everything reset', 'Back to factory defaults.', 'success');
+      toast('ყველაფერი გადაიტვირთა', 'საწყის მდგომარეობაშია.', 'success');
     });
 
     /* ==========================================================
        EXPORT CSV
     ========================================================== */
     $('#exportBtn').addEventListener('click', () => {
-      if (orders.length === 0) { toast('Nothing to export', '', 'error'); return; }
-      const rows = [['Code','Time','Customer','Phone','Location','Pickup','Items','Total','Status','Payment','Note']];
+      if (orders.length === 0) { toast('ექსპორტისთვის არაფერია', '', 'error'); return; }
+      const rows = [['კოდი','დრო','მომხმარებელი','ტელეფონი','ფილიალი','წამოღება','პროდუქცია','სულ','სტატუსი','გადახდა','კომენტარი']];
       orders.forEach(o => {
         rows.push([
           o.code,
-          new Date(o.ts).toLocaleString('en-GB'),
+          new Date(o.ts).toLocaleString('ka-GE'),
           o.customer.name,
           o.customer.phone,
           locName(o.location),
           o.pickupTime,
           o.items.map(i => `${i.qty}× ${i.name}`).join(' | '),
           o.total,
-          o.status,
-          o.paymentMethod || 'Card',
+          statusLabel(o.status),
+          o.paymentMethod || 'ბარათი',
           o.note || '',
         ]);
       });
@@ -1935,10 +1935,10 @@
       const blob = new Blob(['\uFEFF' + csv], { type: 'text/csv;charset=utf-8' });
       const a = document.createElement('a');
       a.href = URL.createObjectURL(blob);
-      a.download = `gcd-orders-${new Date().toISOString().slice(0, 10)}.csv`;
+      a.download = `shekvetebi-${new Date().toISOString().slice(0, 10)}.csv`;
       a.click();
       URL.revokeObjectURL(a.href);
-      toast('Exported', `${orders.length} orders saved as CSV.`, 'success');
+      toast('ექსპორტი დასრულდა', `${orders.length} შეკვეთა შენახულია CSV-ში.`, 'success');
     });
 
     /* ==========================================================
@@ -1953,7 +1953,7 @@
       const list = $('#ordersList');
       const card = list.querySelector(`[data-id="${order.id}"]`);
       if (card) card.classList.add('is-new');
-      toast('New order!', `${order.customer.name} · ${fmtLari(order.total)}`, 'success');
+      toast('ახალი შეკვეთა!', `${order.customer.name} · ${fmtLari(order.total)}`, 'success');
     }
 
     function handleSync(msg) {
